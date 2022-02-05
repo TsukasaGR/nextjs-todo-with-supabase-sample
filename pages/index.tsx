@@ -60,14 +60,14 @@ const Home: NextPage = () => {
   return (
     <div className=''>
       <Head>
-        <title>Next.js x Supabase's ToDo App</title>
-        <meta name='description' content={`Next.js x Supabase's ToDo App`} />
+        <title>Supabase's ToDo App</title>
+        <meta name='description' content={`Supabase's ToDo App`} />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='container py-8 mx-auto'>
-        <h1 className='text-4xl'>Next.js x Supabase's ToDo App</h1>
-        <div className='p-6 m-4 w-full bg-blue-50 rounded shadow'>
+      <main className='container p-8 mx-auto'>
+        <h1 className='text-4xl'>Supabase's ToDo App</h1>
+        <div className='p-6 mx-auto mt-8 w-full bg-blue-50 rounded shadow'>
           <div className='flex mt-4 mb-16'>
             <input
               className='py-2 px-3 mr-4 w-full text-gray-600 rounded border shadow appearance-none'
